@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '~> 1.4'
 
   s.name         = "Reusable"
-  s.version      = "4.1.1"
+  s.version      = "4.2.0"
   s.summary      = "A Swift Mixin to deal with reusable UITableView & UICollectionView cells and XIB-based views"
 
   s.description  = <<-DESC
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/AliSoftware/Reusable.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/TakeoutCentral/Reusable.git", :tag => s.version.to_s }
   s.swift_version = '5.0'
 
   s.subspec 'View' do |ss|
